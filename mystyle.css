@@ -55,7 +55,7 @@ h2.time {
 
 .inner {
   background-color: white;
-  border: 2px solid;
+  border: 4px dotted #ffd600;
   width: 200px;
   height: 200px;
   margin: 20px;
