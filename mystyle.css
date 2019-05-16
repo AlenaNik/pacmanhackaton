@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #ffd600;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-size: 50px;
@@ -63,7 +63,16 @@ h2.time {
   overflow: hidden;
 }
 .points {
-  position: center;
+   position: center;
+ }
+
+#points {
+  color: #ffd600;
+}
+
+
+#timeLeft {
+  color: orangered;
 }
 
 img {
@@ -75,7 +84,7 @@ img {
 
 @keyframes popup {
   50% {
-    top: 25%;
+    top: 5%;
   }
 }
 
