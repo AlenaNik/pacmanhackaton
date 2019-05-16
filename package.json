@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AlenaNik/pacmanhackaton/issues"
   },
-  "homepage": "https://github.com/AlenaNik/pacmanhackaton#readme"
+  "homepage": "https://github.com/AlenaNik/pacmanhackaton#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
