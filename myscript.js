@@ -2,7 +2,9 @@ $(document).ready(function() {
   var points = 0;
 
   $("img").click(function() {
-    $(this).css("background", "red");
+    $(this).css({
+      'background-color': 'red',
+    });
 
     setTimeout(function() {
       $("img").css("background", "0");
@@ -10,7 +12,7 @@ $(document).ready(function() {
   });
 
   $("#diglett1").click(function() {
-    points += 2; //means points = points + 2;
+    points += 2;
     $("#points").html(points);
   });
 
