@@ -30,6 +30,7 @@ h1 {
 
 .encima {
   position: absolute;
+  margin-left: 120px;
 }
 
 .particles-js-canvas-el {
