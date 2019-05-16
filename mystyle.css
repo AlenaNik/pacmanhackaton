@@ -4,7 +4,11 @@ body {
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   background-repeat: no-repeat;
   background-size: cover;
-  cursor: url("http://pocketmonsters.me/wp-content/uploads/pokeball.png"), auto;
+  cursor: url("./images/heart.png"), auto;
+}
+
+.custom-cur {
+  cursor: url(./images/heart.png) auto;
 }
 
 h1 {
