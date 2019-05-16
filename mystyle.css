@@ -26,6 +26,7 @@ h1 {
   font-family: "Press Start 2P", cursive;
   text-align: center;
   margin: 0px 250px;
+  margin-left: 100px;
 }
 
 .encima {
@@ -38,13 +39,13 @@ h1 {
 }
 
 h2.points {
-  text-align: end;
+  text-align: center;
   margin-right: 3rem;
   color: whitesmoke;
 }
 
 h2.time {
-  text-align: end;
+  text-align: center;
   margin-right: 3rem;
   color: whitesmoke;
 }
