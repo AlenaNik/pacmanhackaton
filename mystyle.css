@@ -1,25 +1,35 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
 
 body {
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   background-repeat: no-repeat;
   background-size: cover;
-  cursor: url('http://pocketmonsters.me/wp-content/uploads/pokeball.png'), auto;
+  cursor: url("http://pocketmonsters.me/wp-content/uploads/pokeball.png"), auto;
 }
 
 h1 {
   color: white;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 50px;
 }
 
 .scorebox {
- font-family: 'Quicksand', sans-serif; 
- text-align: center;
-
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
 }
 
+h2.points {
+  text-align: end;
+  margin-right: 3rem;
+  color: whitesmoke;
+}
+
+h2.time {
+  text-align: end;
+  margin-right: 3rem;
+  color: whitesmoke;
+}
 
 .row {
   border: 0px solid;
@@ -69,26 +79,26 @@ img {
   animation-delay: 4s;
   -webkit-filter: hue-rotate(180deg);
 }
-  
+
 #diglett2 {
-    animation-delay: 5s;
-  -webkit-filter:contrast(1000%)
+  animation-delay: 5s;
+  -webkit-filter: contrast(1000%);
 }
-  #diglett3 {
-    animation-delay: 1s;
-    -webkit-filter:grayscale(67%)
-}   
-    #diglett4 {
-    animation-delay: 0.5s;
-      -webkit-filter:contrast(200%)
+#diglett3 {
+  animation-delay: 1s;
+  -webkit-filter: grayscale(67%);
 }
-  #diglett5 {
-    animation-delay: 3s;
+#diglett4 {
+  animation-delay: 0.5s;
+  -webkit-filter: contrast(200%);
 }
-    #diglett6 {
-    animation-delay: 10s;
-     -webkit-filter:hue-rotate(90deg)
-}  
-    #sandshrew { 
-    animation-delay: 0.25567675785758s;
+#diglett5 {
+  animation-delay: 3s;
+}
+#diglett6 {
+  animation-delay: 10s;
+  -webkit-filter: hue-rotate(90deg);
+}
+#sandshrew {
+  animation-delay: 0.25567675785758s;
 }
