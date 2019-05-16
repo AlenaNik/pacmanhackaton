@@ -1,4 +1,5 @@
 
+
 $(document).ready(function(){
 
     var points = 0;
@@ -62,4 +63,3 @@ $(document).ready(function(){
       Countdown();
     
      });
-     
