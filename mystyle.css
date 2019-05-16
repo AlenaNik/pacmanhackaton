@@ -21,6 +21,16 @@ h1 {
 .scorebox {
   font-family: 'Press Start 2P', cursive;
   text-align: center;
+  margin: 0px 250px;
+  width: 800px;
+}
+
+.encima {
+  position: absolute;
+}
+
+.particles-js-canvas-el {
+  height: 1000px!important;
 }
 
 h2.points {
