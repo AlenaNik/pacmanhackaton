@@ -79,7 +79,7 @@ img {
   width: 230px;
   position: relative;
   top: 100%;
-  animation: popup 1s infinite;
+  animation: popup 1.5s infinite;
 }
 
 @keyframes popup {
