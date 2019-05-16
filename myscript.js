@@ -55,3 +55,5 @@ $(document).ready(function() {
 
   Countdown();
 });
+
+document.getElementById("myAudio").loop = true;

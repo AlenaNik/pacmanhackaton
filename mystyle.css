@@ -7,6 +7,10 @@ body {
   cursor: url("./images/heart.png"), auto;
 }
 
+body:active {
+  cursor: url("./images/heart2.png"), auto;
+}
+
 .custom-cur {
   cursor: url(./images/heart.png) auto;
 }
@@ -14,15 +18,14 @@ body {
 h1 {
   color: #ffd600;
   text-align: center;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 50px;
 }
 
 .scorebox {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   text-align: center;
   margin: 0px 250px;
-  width: 800px;
 }
 
 .encima {
@@ -30,7 +33,7 @@ h1 {
 }
 
 .particles-js-canvas-el {
-  height: 1000px!important;
+  height: 1000px !important;
 }
 
 h2.points {
@@ -47,8 +50,8 @@ h2.time {
 
 .row {
   border: 0px solid;
-  width: 1000px;
-  height: 300px;
+  width: auto;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -73,13 +76,12 @@ h2.time {
   overflow: hidden;
 }
 .points {
-   position: center;
- }
+  position: center;
+}
 
 #points {
   color: #ffd600;
 }
-
 
 #timeLeft {
   color: orangered;
