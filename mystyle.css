@@ -96,6 +96,10 @@ img {
   animation: popup 1.5s infinite;
 }
 
+img:hover {
+
+}
+
 @keyframes popup {
   50% {
     top: 1%;
